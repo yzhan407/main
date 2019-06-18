@@ -4,7 +4,7 @@ import React, {useState, useEffect} from 'react';
 import Footer from '../src/components/footer';
 import '../node_modules/@fortawesome/fontawesome-free/js/all';
 import '../sass/index.scss';
-
+import FloatingBar from '../src/components/floatingBar';
 import {withRouter} from 'next/router';
 
 // import Fetch from 'isomorphic-unfetch';
@@ -21,6 +21,7 @@ function App() {
   return (
     <div>
       <Footer />
+      <FloatingBar />
     </div>
   );
 }
